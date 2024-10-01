@@ -1,0 +1,93 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.wrapper{
+    height: 822px;
+    width: 900px;
+}
+header{
+    margin-left: 0px;
+    text-align: right;
+    width: 870px;
+    height: 80px;
+    background-color:white;
+    border-bottom: solid orange 3px;
+
+}
+nav{
+    float: left;
+    background-color: aqua;
+    width: 21%;
+    height: 740px;
+    background-image: url('./back.jpg');
+}
+.menu li{
+    width: 90%;
+    list-style: none;
+    line-height: 45px;
+    text-indent: 10px;
+    border-bottom: dashed 2px darkgoldenrod;
+}
+.menu li a{
+    font-size: 17px;
+    color: rgb(148, 28, 148);
+    text-decoration: none;
+
+}
+.menu li a:hover{
+    color: red;
+    font-style: italic;
+}
+section{
+    float: left;
+    background-color:white;
+    width: 75.8%;
+    height: 740px;
+}
+h1{
+    color:orange;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+p{
+    color: brown;
+   margin-top: 22px;
+   padding-left: 15px;
+   font-size: 19px;
+}
+table{
+    border: outset 5px orange;
+    margin-left: 4px ;
+
+}
+table ul{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+table h2{
+    margin-top: 15px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+table li{
+    font-size: 18px;
+    color: brown;
+    margin-left: 40px;
+}
+footer{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    color: orange;
+    width: 97.5%;
+    height: 30px;
+    margin-left: 16px;
+    border-top: solid 3px orange;
+}

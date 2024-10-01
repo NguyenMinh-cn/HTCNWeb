@@ -1,0 +1,172 @@
+.wrapper{
+    border:1px rgb(254, 108, 132) solid;
+}
+header{
+    height: 30%;
+    width: 1089px;
+    background-color: rgb(8, 17, 102);
+}
+.large-bar {
+    font-size: 60px; /* Thay đổi kích thước theo ý muốn */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: rgb(197, 58, 81);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 3px #fca4a4; 
+    font-style: italic;
+}
+.menu {
+    color: rgba(255, 255, 255, 0.823);
+    border: 1px rgb(254, 108, 132) solid;
+    text-align: center;
+    background-color: rgb(255, 131, 151);
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu-left{ /*phan menu ben trai*/
+    height: 100vh;
+    width: 20%;
+    float: left;
+}
+    .rounded-rectangle {
+        width: 85%;
+        height: 50px;
+        background-color: rgb(255, 131, 151);
+        border-radius: 30px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Căn về phía bên trái */   
+    }
+    .rounded-rectangle span {
+        text-indent: 15px; /* Thụt vào 15px */
+        color: white;
+        font-size: 30px;
+    }
+    .ellipse {
+        width: 90%;
+        height: 10%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        box-shadow: 10px 20px 20px rgb(253, 154, 171); /* Thêm bóng đổ x, y, độ mờ, màu*/
+    }
+    .ellipse img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+.content{
+    height:70%;
+    width: 80%;
+    overflow: hidden; /* Thêm thuộc tính này để chứa các phần tử float */
+}
+    .content-right{
+        width: 30%;
+        font-size: 30px;/*  chữ */
+        float:right;/*Đặt phần tử nổi về phía bên phải của phần tử cha.*/
+        background-color: rgb(0, 0, 0);/*  chữ đậm*/
+        min-height: 800px;/* chiều cao tối thiểu của phần tử là 600 pixel*/
+        color: white;
+    }
+        .content-right h3 {
+            margin: 0; /* Bỏ khoảng cách xung quanh thẻ h3 */
+            padding: 10px; /* Thêm một chút padding nếu cần */
+            font-size: 50px;
+        }
+        .content-right h4 {
+            font-size: 40px;
+        }
+        .content-right img {
+            width: 85%;
+            height: auto;
+        }
+        .content-right-lv2{
+            width: 90%;
+            font-size: 20px;/*  chữ */
+            float:right;/*Đặt phần tử nổi về phía bên phải của phần tử cha.*/
+            min-height: 800px;/* chiều cao tối thiểu của phần tử là 600 pixel*/
+            color: white;
+        }
+        .content-right a {
+            color: rgb(253, 154, 171);
+        }
+
+    
+    .content-left {
+            height: 70%; /* Chiều cao cụ thể */
+            width: 70%;
+            float: left;
+    }
+        .content-left h2 {
+            height: 50px;
+            width: 50%;
+            color: rgb(146, 31, 41); /* Màu chữ */
+            background-color: rgb(255, 131, 151);
+            margin: auto ;
+            display: inline-block; 
+            align-items: center;
+            justify-content: left; 
+            display:flex;       
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .form12 {
+            width: auto;
+        }
+
+        .form12 input, .form12 select, .form12 textarea {
+            width: 80%;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .form12 input[type="submit"], .form12 input[type="button"] {
+            width: auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .form12 label {
+            margin-right: 20px; /* Khoảng cách bên phải của nhãn */
+        }
+a.SMD {
+    margin-left: 10px; /* Xích vào 20px */
+    text-decoration: none; /* Không gạch chân */
+}
+a.back {
+    color: #fd0303;
+    text-decoration: none;
+    font-weight: bold; /* Chữ đậm */
+    margin-right: 10px;
+    text-decoration: underline;
+}
+li.vang {
+    color: rgb(204, 177, 27); /* Màu vàng */
+    text-transform: uppercase; /* In hoa tất cả */
+    font-weight: bold;
+}
+.footer {
+    text-align: center;
+    background-color: rgb(255, 131, 151);
+    clear: both; /* Đảm bảo footer nằm dưới các phần tử float */
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+    padding: 5px; 
+}
+
+.footer h1{
+    color: rgba(255, 255, 255);
+    text-align: center;
+    font-style: italic; /* Chữ in nghiêng */
+}
+
+

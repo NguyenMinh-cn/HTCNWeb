@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autumn Travel Company</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header'
+                'content content right'
+                'footer footer footer';
+        }
+        .item1 { 
+            grid-area: header; 
+            background-color: #ac4b16;
+        }
+        .item1 > h1{
+            color: #8f861f;
+            text-align: left;
+            padding: 10px;
+            text-shadow: -8px -2px 5px #ffffff;
+        }
+        nav{
+            background-color: #ffffff;
+            padding:0px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {           
+            color: #ac4b16;
+            text-decoration: none;
+        }
+        .item2 { 
+            grid-area: content; 
+            margin: 20px;
+            color: #8f861f;
+            border-right: solid 1px #d4d3bd;
+        }
+        .item2 > p { 
+            margin-top: 10px;
+            margin-left: 30px;
+            color: #8f861f;
+            
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            width: 80%;
+        }
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+        }
+        form button {
+            width: 30%;
+            padding: 10px;
+            background-color: #7f8001;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #555;
+        }
+        .item3 { 
+            grid-area: right; 
+            color: #a04f22;
+        }
+        .sub1-item3{
+            background-color: #faebd6;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 20px 20px 0 0;
+        }
+        .sub1-item3 ul {
+            padding: 60px;      
+            list-style: square;
+            padding-bottom: 0px;
+        }
+        .sub1-item3 ul li a {      
+            color: #ac4b16;
+            text-decoration: none;
+        }
+        .sub2-item3{
+            margin: 30px 0px 30px 30px;
+        }
+        .sub2-item3 img {
+            max-width: 20%;
+            height: auto;
+            display: block;
+            margin: 10px;
+            float: left;
+        }
+        .sub2-item3 p {
+            color: #9ca9a1;
+            padding: 20px;
+
+        }
+        .item4 { 
+            grid-area: footer; 
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>  
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <h1>Autumn Travel Company</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Order</a></li>
+                </ul>
+            </nav>
+            <img src="" alt="">
+        </div>
+        <div class="item2">
+            <h3>Sign up for membership benefits</h3>
+            <p><i>Our philisophical are transparency, respect,
+                formality and responsibility. Our stimulus is your enthusiasm. 
+                Our motto is your satisfation.</i></p>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Retype password" required>
+                <button type="submit">Sign Me Up</button>
+            </form>
+        </div>
+        <div class="item3">
+            <div class="sub1-item3">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="#">Make your Own Tours</a></li>
+                    <li><a href="#">Maldives Tours</a></li>
+                    <li><a href="#">Nature & Adventure</a></li>
+                    <li><a href="#">Readymade Tours</a></li>
+                    <li><a href="#">Europe Tours</a></li>
+                    <li><a href="#">Rusia Tours</a></li>
+                </ul>
+            </div>
+            <div class="sub2-item3">
+                <h2>More info</h2>
+                <img src="/tuan3/Bai3/leaf.png" alt="">
+                <p>Our purpose is to give the clients opportunities to share and to make known the reality around the world.</p>
+            </div>
+        </div>
+        <div class="item4">
+            <p>&copy; 2017 Software Engineering Department</p>
+        </div>
+    </div>
+    
+</body>
+</html>
