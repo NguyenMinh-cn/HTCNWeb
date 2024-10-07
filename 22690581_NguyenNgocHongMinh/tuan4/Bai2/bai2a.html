@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container border border-primary mt-3">
+      <div class="ml-4">
+        <h5 class="mt-4">Checkout</h5>
+        <hr />
+        <h6>
+          Product 1 <br />
+          <small class="text-secondary">Lorem ipsum dolor sit amet</small>
+          <span class="float-right"> $200</span>
+        </h6>
+        <h6>
+          Product 2 <br />
+          <small class="text-secondary">Lorem ipsum dolor sit amet</small>
+          <span class="float-right"> $120</span>
+        </h6>
+        <hr />
+        <h6>Total <span class="float-right"> $320</span></h6>
+        <h5 class="mt-5">Credit Card Detail</h5>
+        <hr />
+        <form action="" class="text-secondary">
+          <div class="row">
+            <div class="col-6">
+              <label for="card holder">CARD HOLDER</label>
+              <input
+                type="text"
+                class="form-control"
+                id="card holder"
+                placeholder="Card Holder"
+              />
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <label for="EXPIRATION DATE" class="ml-3"
+                  >EXPIRATION DATE</label
+                >
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <input
+                    type="text"
+                    id="day"
+                    class="form-control"
+                    placeholder="MM"
+                  />
+                </div>
+                <div class="col-6">
+                  <input
+                    type="text"
+                    id="year"
+                    class="form-control"
+                    placeholder="YY"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-7">
+              <label for="card number">CARD NUMBER</label>
+              <input
+                type="text"
+                id="card number"
+                class="form-control"
+                placeholder="Card Number"
+              />
+            </div>
+            <div class="col-5">
+              <label for="CVC">CVC</label>
+              <input
+                type="text"
+                id="CVC"
+                class="form-control"
+                placeholder="CVC"
+              />
+            </div>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg btn-block mt-5 mb-4"
+          >
+            Proceed
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

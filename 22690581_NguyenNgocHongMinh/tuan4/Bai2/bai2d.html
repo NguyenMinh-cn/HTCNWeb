@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <form action="">
+        <div class="form-row was-validated">
+          <div class="col-md-4 mb-3">
+            <label for="fname">First name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fname"
+              placeholder="First name"
+              name="fname"
+              required
+            />
+            <div class="valid-feedback">Look good!</div>
+            <div class="invalid-feedback">
+              Please provide a valid first name.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="lname">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lname"
+              placeholder="Last name"
+              name="lname"
+              required
+            />
+            <div class="valid-feedback">Look good!</div>
+            <div class="invalid-feedback">
+              Please provide a valid last name.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="Username">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="Username"
+                placeholder="Username"
+                aria-describedby="inputGroupPrepend3"
+                required
+                name="username"
+              />
+              <div class="valid-feedback">Look good!</div>
+              <div class="invalid-feedback">Please chosse a username.</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row was-validated">
+          <div class="col-md-6">
+            <label for="city">City</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="City"
+              class="form-control"
+              required
+            />
+            <div class="valid-feedback">Look good!</div>
+            <div class="invalid-feedback">Please provide a valid city.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="state">State</label>
+            <input
+              type="text"
+              name="state"
+              id="state"
+              placeholder="State"
+              class="form-control"
+              required
+            />
+            <div class="valid-feedback">Look good!</div>
+            <div class="invalid-feedback">Please provide a valid state.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="zip">Zip</label>
+            <input
+              type="text"
+              name="zip"
+              id="zip"
+              placeholder="Zip"
+              class="form-control"
+              required
+            />
+            <div class="valid-feedback">Look good!</div>
+            <div class="invalid-feedback">Please provide a valid zip.</div>
+          </div>
+        </div>
+        <div class="form-row was-validated ml-4 mb-3">
+          <label for="cb" class="form-check-label"></label>
+          <input type="checkbox" id="cb" class="form-check-input" required />
+          Agree to terms and conditions
+          <div class="valid-feedback">Look good!</div>
+          <div class="invalid-feedback">You must agree before submitting</div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </form>
+    </div>
+  </body>
+</html>
