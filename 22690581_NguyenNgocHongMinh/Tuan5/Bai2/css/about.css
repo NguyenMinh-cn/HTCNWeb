@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.woff2") format("woff2"),
+    url("../fonts/fontawesome-webfont.woff") format("woff"),
+    url("../fonts/fontawesome-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tilda";
+  src: url("../fonts/d8a1db1f53a870fdaadbb77ab1b32639.woff2") format("woff2"),
+    url("../fonts/d8a1db1f53a870fdaadbb77ab1b32639.woff") format("woff"),
+    url("../fonts/d8a1db1f53a870fdaadbb77ab1b32639.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "FontAwesome", sans-serif;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: rgb(255, 255, 255) !important;
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #febd37; /* Màu khi hover */
+}
+.navbar-nav .nav-link.active {
+  color: #febd37; /* Màu khi hover */
+}
+#logo {
+  font-family: "Tilda";
+  font-size: 30px;
+}
+.header .navbar .btn {
+  background-color: #febd37;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.header .navbar image {
+  cursor: pointer;
+}
+.container {
+  background-repeat: no-repeat;
+  background-color: #212832;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 70vh;
+  margin-left: 200px;
+}
+.content .btn {
+  background-color: #febd37;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  align-self: flex-start;
+}
